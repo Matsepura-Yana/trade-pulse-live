@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.927eb1a1.css",
-    "main.js": "/static/js/main.e6afb2c9.js",
+    "main.css": "/static/css/main.a7550904.css",
+    "main.js": "/static/js/main.8702f52c.js",
     "static/media/mainscreen background.jpg": "/static/media/mainscreen background.edecaf5179ef67522ab0.jpg",
     "static/media/start earning.png": "/static/media/start earning.2c85c18e916a14a1a228.png",
     "static/media/logo.png": "/static/media/logo.84b52eb47baf572d289d.png",
@@ -15,13 +15,14 @@
     "static/media/TildaSans-Medium.woff2": "/static/media/TildaSans-Medium.90e34d39fb42c65017a6.woff2",
     "static/media/TildaSans-Regular.woff2": "/static/media/TildaSans-Regular.ea99090449b0ab24b898.woff2",
     "static/media/statistic image.png": "/static/media/statistic image.c58a071096dc1f89c839.png",
+    "static/media/logout icon.svg": "/static/media/logout icon.4d0802994524e619b397e25a02f49e75.svg",
     "static/media/close icon.svg": "/static/media/close icon.22f591a7ab4b033f566fb300931af399.svg",
     "index.html": "/index.html",
-    "main.927eb1a1.css.map": "/static/css/main.927eb1a1.css.map",
-    "main.e6afb2c9.js.map": "/static/js/main.e6afb2c9.js.map"
+    "main.a7550904.css.map": "/static/css/main.a7550904.css.map",
+    "main.8702f52c.js.map": "/static/js/main.8702f52c.js.map"
   },
   "entrypoints": [
-    "static/css/main.927eb1a1.css",
-    "static/js/main.e6afb2c9.js"
+    "static/css/main.a7550904.css",
+    "static/js/main.8702f52c.js"
   ]
 }

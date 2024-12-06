@@ -1,0 +1,3 @@
+[submodule "trade-pulse-live"]
+    path = trade-pulse-live
+    url = https://github.com/Matsepura-Yana/trade-pulse-live.git
