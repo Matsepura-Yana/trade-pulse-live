@@ -1,0 +1,32 @@
+.footer {
+	width: 100%;
+	height: 1.5cm; /* Высота чуть больше 1 см */
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	bottom: 0;
+	font-family: Arial, sans-serif;
+	color: #ffffff;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 12px;
+	line-height: 1.4;
+	margin: 0;
+	font-weight: 400;
+}
+
+.footer-link {
+	color: #ffffff;
+	text-decoration: none;
+	margin: 0 5px;
+}
+
+.footer-link:hover {
+	text-decoration: underline;
+}

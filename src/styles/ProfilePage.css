@@ -1,0 +1,291 @@
+.profile-page {
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.721),
+			rgba(0, 0, 0, 0.39)
+		),
+		url('../images/mainscreen background.jpg') center/cover no-repeat;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 20px;
+}
+
+.profile-container {
+	background: rgba(14, 22, 45, 0.63);
+	backdrop-filter: blur(12px);
+	border-radius: 30px;
+	padding: 15px 30px;
+	text-align: center;
+	width: 100%;
+	max-width: 540px;
+	margin-top: 15px;
+}
+
+.profile-title {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: 'Tilda Sans', sans-serif;
+	font-weight: 700;
+	margin-bottom: 25px;
+	margin-top: 21px;
+}
+
+.profile-block {
+	border: 2.5px solid #ffffffcc;
+	border-radius: 30px;
+	padding: 8px 18px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.input-label {
+	color: #ffffff;
+	font-size: 22px;
+	font-family: 'Tilda Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 6px;
+	text-align-last: left;
+	margin-left: 4px;
+}
+
+.profile-info {
+	color: #ffffff;
+	display: inline-block; /* Авторазмер по содержимому */
+	font-size: 21px;
+	font-family: 'Tilda Sans', sans-serif;
+	line-height: 1.6;
+	font-weight: 300;
+	border-width: 2px;
+	border-radius: 28px;
+	background-position: center center;
+	border-color: #16f2ca8f;
+	border-style: solid;
+	padding: 10px 25px 12px 25px;
+	margin-bottom: 14px;
+	margin-top: 12px;
+	text-align: center;
+	max-height: 55px;
+	background-color: #1e6b5daa;
+	opacity: 0.95;
+}
+
+.change-password-button {
+	min-height: 50px;
+	color: #0b1120;
+	font-size: 16.5px;
+	font-family: 'Arial', Arial, sans-serif;
+	font-weight: 600;
+	border-radius: 30px;
+	background-color: #bcc6d3;
+	border: none;
+	cursor: pointer;
+	transition: all 0.7s ease-in-out;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 0;
+	width: 45%;
+}
+
+.change-password-button:hover {
+	background-color: #aeb9c5;
+}
+
+.logout-button {
+	width: 100%;
+	color: #ffffffdd;
+	font-size: 30px;
+	font-family: 'Tilda Sans', sans-serif;
+	font-weight: 600;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	transition: all 0.7s ease-in-out;
+	margin-top: 29px;
+	margin-bottom: 15px;
+	text-align: center;
+	display: flex; /* Делаем кнопку флекс-контейнером */
+	align-items: center; /* Центрируем элементы по вертикали */
+	justify-content: center; /* Центрируем элементы по горизонтали */
+	gap: 0 10px;
+}
+
+.success-message {
+	color: green;
+	font-size: 14px;
+	font-family: 'Tilda Sans', sans-serif;
+	margin-top: 10px;
+}
+
+.disclaimer {
+	color: #ffffffa7;
+	font-size: 12px;
+	font-family: 'Tilda Sans', sans-serif;
+	line-height: 1.45;
+	font-weight: 400;
+	margin-top: 10px;
+	text-align: left;
+	margin-left: 4px;
+}
+
+.login-warning {
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Tilda Sans', sans-serif;
+	text-align: center;
+}
+
+.profile-modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+	transition: background-color 0.4s ease;
+}
+
+.profile-modal {
+	background: rgba(13, 22, 44, 0.707);
+	backdrop-filter: blur(12px);
+	border-radius: 30px;
+	padding: 40px 45px 40px 45px;
+	width: 100%;
+	max-width: 430px;
+	text-align: center;
+	position: relative;
+}
+
+.profile-modal-title {
+	font-size: 29px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	margin-bottom: 30px;
+	margin-top: 7px;
+	color: #e1e3e9;
+}
+
+.profile-modal-description {
+	font-size: 12px;
+	color: #c7d0dc;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+
+.profile-modal-input {
+	color: #ffffff;
+	width: 83%;
+	font-size: 21px;
+	font-family: 'Tilda Sans', sans-serif;
+	line-height: 1.6;
+	font-weight: 300;
+	border-width: 2px;
+	border-radius: 30px;
+	background-position: center center;
+	border-color: #16f2ca8f;
+	border-style: solid;
+	padding: 10px 20px;
+	text-align: center;
+	max-height: 60px;
+	background-color: #1e6b5daa;
+	opacity: 0.95;
+	margin-bottom: 25px;
+	transition: border-color 0.4s ease, opacity 0.4s ease,
+		background-color 0.4s ease;
+}
+
+.profile-modal-input:focus {
+	opacity: 0.7;
+	outline: none;
+	border-color: #bcc6d3;
+	background-color: rgba(13, 22, 44, 0.488);
+}
+
+.profile-modal-input:hover {
+	border-color: #bcc6d3;
+	background-color: rgba(58, 71, 104, 0.488);
+}
+
+.profile-modal-password-input {
+	margin-bottom: 13px;
+}
+
+.resend-code-button {
+	background-color: #bcc6d3;
+	color: #0b1120;
+	border: none;
+	border-radius: 30px;
+	padding: 12px 17px;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease;
+	display: inline-block; /* Авторазмер по содержимому */
+}
+
+.resend-code-button:hover {
+	background-color: #aeb9c5e0;
+}
+
+.profile-modal-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	transition: all 0.9s;
+}
+
+.profile-modal-save-button,
+.profile-modal-cancel-button {
+	width: 48.5%;
+	padding: 10px;
+	border-radius: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	border: none;
+	background-color: #bcc6d3;
+	color: #0b1120;
+	transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease;
+	height: 47px;
+}
+
+.profile-modal-save-button:hover {
+	color: #bcc6d3;
+	background-color: #236e4b;
+}
+
+.profile-modal-cancel-button:hover {
+	color: #bcc6d3;
+	background-color: #9c1f0f;
+}
+
+.profile-modal-error {
+	color: red;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-family: 'Tilda Sans', sans-serif;
+	transition: opacity 0.4s ease;
+}
+
+.profile-modal-success {
+	color: green;
+	font-size: 14px;
+	font-family: 'Tilda Sans', sans-serif;
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 0;
+	transition: opacity 0.4s ease;
+}
+
+.profile-modal-password-change-result {
+	height: 15px;
+	margin-bottom: 0;
+}

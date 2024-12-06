@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.927eb1a1.css",
+    "main.js": "/static/js/main.e6afb2c9.js",
+    "static/media/mainscreen background.jpg": "/static/media/mainscreen background.edecaf5179ef67522ab0.jpg",
+    "static/media/start earning.png": "/static/media/start earning.2c85c18e916a14a1a228.png",
+    "static/media/logo.png": "/static/media/logo.84b52eb47baf572d289d.png",
+    "static/media/active users.png": "/static/media/active users.72eca07f8c9ec1d06de9.png",
+    "static/media/lost signals.png": "/static/media/lost signals.f22b9062074458a40427.png",
+    "static/media/pocket option logo.png": "/static/media/pocket option logo.f81a21316e439a01926a.png",
+    "static/media/arrow.png": "/static/media/arrow.d618dd231fae40924858.png",
+    "static/media/win signals.png": "/static/media/win signals.e490ab43cb3cc2264494.png",
+    "static/media/TildaSans-Light.woff2": "/static/media/TildaSans-Light.9df27024da31c1e64a58.woff2",
+    "static/media/TildaSans-Bold.woff2": "/static/media/TildaSans-Bold.7b20d6ac9e458d542ac9.woff2",
+    "static/media/TildaSans-Medium.woff2": "/static/media/TildaSans-Medium.90e34d39fb42c65017a6.woff2",
+    "static/media/TildaSans-Regular.woff2": "/static/media/TildaSans-Regular.ea99090449b0ab24b898.woff2",
+    "static/media/statistic image.png": "/static/media/statistic image.c58a071096dc1f89c839.png",
+    "static/media/close icon.svg": "/static/media/close icon.22f591a7ab4b033f566fb300931af399.svg",
+    "index.html": "/index.html",
+    "main.927eb1a1.css.map": "/static/css/main.927eb1a1.css.map",
+    "main.e6afb2c9.js.map": "/static/js/main.e6afb2c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.927eb1a1.css",
+    "static/js/main.e6afb2c9.js"
+  ]
+}
